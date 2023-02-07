@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: coral;
+        }
+        a{
+            border: black;
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: black;
+        }
+        .especial{
+            background-color: brown;
+
+        }
+        .especial::before {
+            content: '- ';
+        }
+        .especial::after{
+            content: " -";
+        }
+        a::after{
+            content: '[//]';
+            text-decoration: none;
+            font-weight: normal;
+            color: aquamarine;
+        }
+        h1{
+            border: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <h1 >Persozalizando Links</h1>
+    <ul>
+        <li class="especial"> <a href="https://www.youtube.com/watch?v=UqZQoSP_UR0" target="_blank" >League of legends</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        <liclass="especial"><a href="https://www.instagram.com/" target="_blank " button="cicou">instagran</a></li>
+       
+    </ul>
+</body>
+</html>

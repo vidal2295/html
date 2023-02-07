@@ -1,0 +1,21 @@
+@charset "UFT-8";
+/*
+em html id= a # em css
+em html class= a . em css
+*/
+body{
+    background-color: #b4d474a1;
+}
+h1{
+    color: #4f9deb;
+}
+h1#principal{
+    text-align: center;
+    background-color: #6cc79873;
+}
+h2.basico{
+    color: green;
+}
+h2{
+    color: rgb(67, 187, 147);
+}
